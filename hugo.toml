@@ -1,0 +1,30 @@
+baseURL = 'https://JhWuuuy.github.io/'
+languageCode = 'zh-cn'
+title = 'JhWuuu个人作品集' #
+theme = 'PaperMod'
+
+[params]
+env = "production"
+description = "Java后端开发 | SpringBoot | Redis"
+author = "Jh"
+
+# 首页个人信息
+[params.profileMode]
+enabled = true
+title = "你好，我是Jh Wuu 👋"
+subtitle = "爱搞点小东西。"
+imageUrl = "你的头像链接(如果没有先空着)"
+imageWidth = 120
+imageHeight = 120
+
+# 顶部的菜单栏
+[[menu.main]]
+identifier = "projects"
+name = "💻 项目实战"
+url = "/posts/"
+weight = 10
+[[menu.main]]
+identifier = "about"
+name = "🙋‍♂️ 关于我"
+url = "/about/"
+weight = 20

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>JhWuuu个人作品集</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on JhWuuu个人作品集</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/my-first-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-first-project/</guid>
+      <description>&lt;h1 id=&#34;osex---操作系统仿真演示平台&#34;&gt;OsEx - 操作系统仿真演示平台&lt;/h1&gt;
+&lt;h2 id=&#34;-项目简介&#34;&gt;📖 项目简介&lt;/h2&gt;
+&lt;p&gt;OsEx (Operating System Exercise) 是一个基于 Java Spring Boot 开发的操作系统原理仿真演示平台。该项目旨在通过可视化的方式，模拟操作系统核心组件的工作原理，帮助理解抽象的 OS 概念。&lt;/p&gt;
+&lt;h2 id=&#34;-主要功能-features&#34;&gt;✨ 主要功能 (Features)&lt;/h2&gt;
+&lt;p&gt;本项目包含四大核心模块的仿真：&lt;/p&gt;
+&lt;h3 id=&#34;1-进程管理-process-management&#34;&gt;1. 进程管理 (Process Management)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;核心类&lt;/strong&gt;: &lt;code&gt;ProcessController&lt;/code&gt;, &lt;code&gt;ProcessService&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;功能&lt;/strong&gt;: 模拟进程的创建、调度、终止。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;支持算法&lt;/strong&gt;: (在此处填写你实现的算法，如：FCFS, RR, SJF 等)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;模拟模式&lt;/strong&gt;: 支持单步执行 (&lt;code&gt;step&lt;/code&gt;) 和 连续执行 (&lt;code&gt;all&lt;/code&gt;)。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-内存管理-memory-management&#34;&gt;2. 内存管理 (Memory Management)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;核心类&lt;/strong&gt;: &lt;code&gt;MemoryController&lt;/code&gt;, &lt;code&gt;MemoryService&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;功能&lt;/strong&gt;: 模拟内存块的分配 (Allocation) 与回收 (Deallocation)。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;核心实体&lt;/strong&gt;: &lt;code&gt;MemoryBlock&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-虚拟内存-virtual-memory&#34;&gt;3. 虚拟内存 (Virtual Memory)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;核心类&lt;/strong&gt;: &lt;code&gt;VirtualMemoryController&lt;/code&gt;, &lt;code&gt;VirtualMemoryService&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;功能&lt;/strong&gt;: 模拟页面置换算法及虚拟内存映射。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-磁盘管理-disk-management&#34;&gt;4. 磁盘管理 (Disk Management)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;核心类&lt;/strong&gt;: &lt;code&gt;DiskManageController&lt;/code&gt;, &lt;code&gt;DiskManageService&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;功能&lt;/strong&gt;: 模拟磁盘寻道算法与文件存储路径。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-技术栈-tech-stack&#34;&gt;🛠 技术栈 (Tech Stack)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;后端&lt;/strong&gt;: Java (JDK 1.8+), Spring Boot&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;构建工具&lt;/strong&gt;: Maven&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;前端&lt;/strong&gt;: HTML, JavaScript (位于 &lt;code&gt;src/main/resources/static/page.html&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;模板引擎&lt;/strong&gt;: Thymeleaf (可选)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-项目结构-project-structure&#34;&gt;📂 项目结构 (Project Structure)&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;OsEx
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── src
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│   └── main
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       ├── java
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │   └── com.os
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       ├── OsExApplication.java    # 项目启动入口
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       ├── controller              # 控制层 (API 接口)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       │   ├── DiskManageController.java
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       │   ├── MemoryController.java
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       │   ├── ProcessController.java
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       │   └── VirtualMemoryController.java
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       ├── service                 # 业务逻辑层
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       │   ├── impl                # 业务逻辑实现
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       │   │   ├── DiskManageServiceImpl.java
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       │   │   ├── MemoryServiceImpl.java
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       │   │   ├── ProcessServiceImpl.java
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       │   │   └── VirtualMemoryServiceImpl.java
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       │   ├── DiskManageService.java
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       │   ├── MemoryService.java
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       │   ├── ProcessService.java
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       │   └── VirtualMemoryService.java
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       ├── entity                  # 实体类 (PCB, MemoryBlock等)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       │   ├── ProcessPCB.java
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       │   ├── MemoryBlock.java
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       │   ├── DiskPath.java
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       │   └── ...
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │       └── dto                     # 数据传输对象 (Request/Response)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │           ├── DiskDTO
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │           ├── MemoryDTO
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │           ├── ProcessDTO
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       │           └── VirtualMemoryDTO
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       └── resources
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│           ├── static                      # 静态资源
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│           │   └── page.html               # 前端仿真页面
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│           ├── templates                   # 页面模板
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│           └── application.yaml            # 配置文件
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;└── pom.xml                                 # Maven 依赖配置
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
