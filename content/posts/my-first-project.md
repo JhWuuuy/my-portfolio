@@ -1,3 +1,11 @@
+---
+title: "OsEx - 操作系统仿真演示平台"
+date: 2023-11-20T17:26:53+08:00
+draft: false
+tags: ["Java", "Spring Boot", "操作系统"]
+categories: ["项目展示"]
+---
+
 # OsEx - 操作系统仿真演示平台
 
 ## 📖 项目简介
