@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>JhWuuu个人作品集</title>
+<title>Jh Wu 作品集</title>
 <meta name="keywords" content="">
 <meta name="description" content="OsEx - 操作系统仿真演示平台
 📖 项目简介
@@ -81,17 +81,17 @@ OsEx
 │           └── application.yaml            # 配置文件
 └── pom.xml                                 # Maven 依赖配置
 ">
-<meta name="author" content="Jh">
-<link rel="canonical" href="http://localhost:1313/posts/my-first-project/">
+<meta name="author" content="Jh Wu">
+<link rel="canonical" href="//localhost:1313/posts/my-first-project/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.4ef2299ae814559c4055cd3d15919aff78737e44fa7af337c506246832ba458a.css" integrity="sha256-TvIpmugUVZxAVc09FZGa/3hzfkT6evM3xQYkaDK6RYo=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="//localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/my-first-project/">
+<link rel="alternate" hreflang="en" href="//localhost:1313/posts/my-first-project/">
 <noscript>
     <style>
         #theme-toggle,
@@ -143,9 +143,9 @@ OsEx
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="http://localhost:1313/posts/my-first-project/">
-  <meta property="og:site_name" content="JhWuuu个人作品集">
-  <meta property="og:title" content="JhWuuu个人作品集">
+</script><meta property="og:url" content="//localhost:1313/posts/my-first-project/">
+  <meta property="og:site_name" content="Jh Wu 作品集">
+  <meta property="og:title" content="Jh Wu 作品集">
   <meta property="og:description" content="OsEx - 操作系统仿真演示平台 📖 项目简介 OsEx (Operating System Exercise) 是一个基于 Java Spring Boot 开发的操作系统原理仿真演示平台。该项目旨在通过可视化的方式，模拟操作系统核心组件的工作原理，帮助理解抽象的 OS 概念。
 ✨ 主要功能 (Features) 本项目包含四大核心模块的仿真：
 1. 进程管理 (Process Management) 核心类: ProcessController, ProcessService 功能: 模拟进程的创建、调度、终止。 支持算法: (在此处填写你实现的算法，如：FCFS, RR, SJF 等) 模拟模式: 支持单步执行 (step) 和 连续执行 (all)。 2. 内存管理 (Memory Management) 核心类: MemoryController, MemoryService 功能: 模拟内存块的分配 (Allocation) 与回收 (Deallocation)。 核心实体: MemoryBlock 3. 虚拟内存 (Virtual Memory) 核心类: VirtualMemoryController, VirtualMemoryService 功能: 模拟页面置换算法及虚拟内存映射。 4. 磁盘管理 (Disk Management) 核心类: DiskManageController, DiskManageService 功能: 模拟磁盘寻道算法与文件存储路径。 🛠 技术栈 (Tech Stack) 后端: Java (JDK 1.8&#43;), Spring Boot 构建工具: Maven 前端: HTML, JavaScript (位于 src/main/resources/static/page.html) 模板引擎: Thymeleaf (可选) 📂 项目结构 (Project Structure) OsEx ├── src │ └── main │ ├── java │ │ └── com.os │ │ ├── OsExApplication.java # 项目启动入口 │ │ ├── controller # 控制层 (API 接口) │ │ │ ├── DiskManageController.java │ │ │ ├── MemoryController.java │ │ │ ├── ProcessController.java │ │ │ └── VirtualMemoryController.java │ │ ├── service # 业务逻辑层 │ │ │ ├── impl # 业务逻辑实现 │ │ │ │ ├── DiskManageServiceImpl.java │ │ │ │ ├── MemoryServiceImpl.java │ │ │ │ ├── ProcessServiceImpl.java │ │ │ │ └── VirtualMemoryServiceImpl.java │ │ │ ├── DiskManageService.java │ │ │ ├── MemoryService.java │ │ │ ├── ProcessService.java │ │ │ └── VirtualMemoryService.java │ │ ├── entity # 实体类 (PCB, MemoryBlock等) │ │ │ ├── ProcessPCB.java │ │ │ ├── MemoryBlock.java │ │ │ ├── DiskPath.java │ │ │ └── ... │ │ └── dto # 数据传输对象 (Request/Response) │ │ ├── DiskDTO │ │ ├── MemoryDTO │ │ ├── ProcessDTO │ │ └── VirtualMemoryDTO │ └── resources │ ├── static # 静态资源 │ │ └── page.html # 前端仿真页面 │ ├── templates # 页面模板 │ └── application.yaml # 配置文件 └── pom.xml # Maven 依赖配置">
@@ -154,7 +154,7 @@ OsEx
     <meta property="article:section" content="posts">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="JhWuuu个人作品集">
+  <meta name="twitter:title" content="Jh Wu 作品集">
   <meta name="twitter:description" content="OsEx - 操作系统仿真演示平台 📖 项目简介 OsEx (Operating System Exercise) 是一个基于 Java Spring Boot 开发的操作系统原理仿真演示平台。该项目旨在通过可视化的方式，模拟操作系统核心组件的工作原理，帮助理解抽象的 OS 概念。
 ✨ 主要功能 (Features) 本项目包含四大核心模块的仿真：
 1. 进程管理 (Process Management) 核心类: ProcessController, ProcessService 功能: 模拟进程的创建、调度、终止。 支持算法: (在此处填写你实现的算法，如：FCFS, RR, SJF 等) 模拟模式: 支持单步执行 (step) 和 连续执行 (all)。 2. 内存管理 (Memory Management) 核心类: MemoryController, MemoryService 功能: 模拟内存块的分配 (Allocation) 与回收 (Deallocation)。 核心实体: MemoryBlock 3. 虚拟内存 (Virtual Memory) 核心类: VirtualMemoryController, VirtualMemoryService 功能: 模拟页面置换算法及虚拟内存映射。 4. 磁盘管理 (Disk Management) 核心类: DiskManageController, DiskManageService 功能: 模拟磁盘寻道算法与文件存储路径。 🛠 技术栈 (Tech Stack) 后端: Java (JDK 1.8&#43;), Spring Boot 构建工具: Maven 前端: HTML, JavaScript (位于 src/main/resources/static/page.html) 模板引擎: Thymeleaf (可选) 📂 项目结构 (Project Structure) OsEx ├── src │ └── main │ ├── java │ │ └── com.os │ │ ├── OsExApplication.java # 项目启动入口 │ │ ├── controller # 控制层 (API 接口) │ │ │ ├── DiskManageController.java │ │ │ ├── MemoryController.java │ │ │ ├── ProcessController.java │ │ │ └── VirtualMemoryController.java │ │ ├── service # 业务逻辑层 │ │ │ ├── impl # 业务逻辑实现 │ │ │ │ ├── DiskManageServiceImpl.java │ │ │ │ ├── MemoryServiceImpl.java │ │ │ │ ├── ProcessServiceImpl.java │ │ │ │ └── VirtualMemoryServiceImpl.java │ │ │ ├── DiskManageService.java │ │ │ ├── MemoryService.java │ │ │ ├── ProcessService.java │ │ │ └── VirtualMemoryService.java │ │ ├── entity # 实体类 (PCB, MemoryBlock等) │ │ │ ├── ProcessPCB.java │ │ │ ├── MemoryBlock.java │ │ │ ├── DiskPath.java │ │ │ └── ... │ │ └── dto # 数据传输对象 (Request/Response) │ │ ├── DiskDTO │ │ ├── MemoryDTO │ │ ├── ProcessDTO │ │ └── VirtualMemoryDTO │ └── resources │ ├── static # 静态资源 │ │ └── page.html # 前端仿真页面 │ ├── templates # 页面模板 │ └── application.yaml # 配置文件 └── pom.xml # Maven 依赖配置">
@@ -169,13 +169,13 @@ OsEx
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "http://localhost:1313/posts/"
+      "item": "//localhost:1313/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "",
-      "item": "http://localhost:1313/posts/my-first-project/"
+      "item": "//localhost:1313/posts/my-first-project/"
     }
   ]
 }
@@ -197,18 +197,18 @@ OsEx
   "dateModified": "0001-01-01T00:00:00Z",
   "author":{
     "@type": "Person",
-    "name": "Jh"
+    "name": "Jh Wu"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/posts/my-first-project/"
+    "@id": "//localhost:1313/posts/my-first-project/"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "JhWuuu个人作品集",
+    "name": "Jh Wu 作品集",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/favicon.ico"
+      "url": "//localhost:1313/favicon.ico"
     }
   }
 }
@@ -218,7 +218,7 @@ OsEx
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="JhWuuu个人作品集 (Alt + H)">JhWuuu个人作品集</a>
+            <a href="//localhost:1313/" accesskey="h" title="Jh Wu 作品集 (Alt + H)">Jh Wu 作品集</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -243,16 +243,6 @@ OsEx
             </div>
         </div>
         <ul id="menu">
-            <li>
-                <a href="http://localhost:1313/posts/" title="💻 项目实战">
-                    <span>💻 项目实战</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/about/" title="🙋‍♂️ 关于我">
-                    <span>🙋‍♂️ 关于我</span>
-                </a>
-            </li>
         </ul>
     </nav>
 </header>
@@ -264,7 +254,7 @@ OsEx
     <h1 class="post-title entry-hint-parent">
       
     </h1>
-    <div class="post-meta"><span>Jh</span>
+    <div class="post-meta"><span>Jh Wu</span>
 
 </div>
   </header> 
@@ -353,7 +343,7 @@ OsEx
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">JhWuuu个人作品集</a></span> · 
+        <span>&copy; 2026 <a href="//localhost:1313/">Jh Wu 作品集</a></span> · 
 
     <span>
         Powered by

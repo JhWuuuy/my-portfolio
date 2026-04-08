@@ -1,30 +1,33 @@
-baseURL = 'https://JhWuuuy.github.io/'
+baseURL = '/'
 languageCode = 'zh-cn'
-title = 'JhWuuu个人作品集' #
+title = 'Jh Wu 作品集'
 theme = 'PaperMod'
 
 [params]
 env = "production"
-description = "Java后端开发 | SpringBoot | Redis"
-author = "Jh"
+author = "Jh Wu"
+description = "Java 后端开发"
 
-# 首页个人信息
 [params.profileMode]
 enabled = true
-title = "你好，我是Jh Wuu 👋"
-subtitle = "爱搞点小东西。"
-imageUrl = "你的头像链接(如果没有先空着)"
+title = "你好，我是 Jh Wu 👋"
+subtitle = "正在寻找 Java 开发实习/校招机会。擅长 SpringCloud、Redis、MySQL 调优。"
+# 记得在 static 文件夹放一个 head.png
+imageUrl = ""
 imageWidth = 120
 imageHeight = 120
 
-# 顶部的菜单栏
-[[menu.main]]
-identifier = "projects"
-name = "💻 项目实战"
-url = "/posts/"
-weight = 10
-[[menu.main]]
-identifier = "about"
-name = "🙋‍♂️ 关于我"
-url = "/about/"
-weight = 20
+[[params.profileMode.buttons]]
+name = "查看我的项目"
+url = "/posts"
+[[params.profileMode.buttons]]
+name = "关于我"
+url = "/about"
+
+# 社交链接（主页会显示图标）
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/JhWuuuy"
+[[params.socialIcons]]
+name = "email"
+url = "mailto:你的邮箱"
