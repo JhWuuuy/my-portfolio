@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://my-portfolio-jh.vercel.app/'
 languageCode = 'zh-cn'
 title = 'Jh Wu 作品集'
 theme = 'PaperMod'
